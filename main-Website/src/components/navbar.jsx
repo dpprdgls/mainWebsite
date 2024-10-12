@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import '../styles/bootstrap.min.css';
-import Logo from '../assets/circlelogo.png';
+import Logo from '/assets/circlelogo.png';
 
 const NavBar = () => {
     const [nav, setNav] = useState(false);
