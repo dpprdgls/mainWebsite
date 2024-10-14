@@ -24,4 +24,4 @@ function TimelineItem({ year, title, duration, details }) {
   );
 }
 
-export default TimelineItem
+export default TimelineItem;
