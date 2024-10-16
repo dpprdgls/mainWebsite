@@ -9,6 +9,7 @@ import Navbar from './components/navbar'; // Ensure this matches your file struc
 import Footer from './components/footer'; // Import Footer if you have it
 import Skills from './components/skills'; // Import Skills if you have it
 import Timeline from './components/timeline'; // Import Timeline if you have it
+import About from './components/about'; // Import About if you have it
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <div className="bg-white text-dark min-vh-100 mx-auto" style={{ maxWidth: '80rem' }}>
         <Routes>
           <Route path='/' element={<Intro />} />
-          {/* <Route path='/about' element={<About />} /> */}
+          <Route path='/about' element={<About />} />
           <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/timeline' element={<Timeline />} />
           {/* <Route path='/contact' element={<Contact />} /> */}
