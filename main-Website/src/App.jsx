@@ -5,11 +5,13 @@ import './App.css';
 
 import Intro from './components/intro';
 import Portfolio from './components/portfolio';
-import Navbar from './components/navbar'; // Ensure this matches your file structure
-import Footer from './components/footer'; // Import Footer if you have it
-import Skills from './components/skills'; // Import Skills if you have it
-import Timeline from './components/timeline'; // Import Timeline if you have it
-import About from './components/about'; // Import About if you have it
+import Navbar from './components/navbar'; 
+import Footer from './components/footer'; 
+import Skills from './components/skills'; 
+import Timeline from './components/timeline'; 
+import About from './components/about'; 
+import Contact from './components/contact'; 
+
 
 function App() {
   return (
@@ -21,7 +23,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/timeline' element={<Timeline />} />
-          {/* <Route path='/contact' element={<Contact />} /> */}
+          <Route path='/contact' element={<Contact />} />
           <Route path='/skills' element={<Skills />} />
         </Routes>
         <Footer /> {/* Ensure Footer is imported */}
